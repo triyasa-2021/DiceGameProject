@@ -1,6 +1,6 @@
 /**********Tag Selector**********/
 img{
-    height: 250px;
+    height: 15rem;
 }
 h2{
     text-align: center;
@@ -35,4 +35,12 @@ h2{
     background-color: rgb(98, 138, 38);
     border: 3px  solid white;
     border-radius: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    img{
+        height: 10rem;
+    }
 }
